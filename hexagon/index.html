@@ -1,44 +1,139 @@
-<!-- RAH Code -->
-
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="refresh" content="5; url=https://hexagon-rahcode.herokuapp.com/">
-    <title>hexagon</title>
-</head>
-<body>
-    <h1>hexagon</h1>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Hexagon</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <p>Wait 5 seconds to be redirected...</p>
-    <br>
-    <br>
-    <p>Or <a href="https://hexagon-rahcode.herokuapp.com/">Click here</a></p>
+    <!--==================== UNICONS ====================-->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
 
-    <center>
-        Developed by:
-        <br>
-        <br>
+    <!--==================== SWIPER CSS ====================-->
+    <link rel="stylesheet" href="https://www.rahcode.com/assets/css/swiper-bundle.min.css" />
 
-        <p>
-            RAMIRO ALVAREZ HERNANDEZ
-            <br>
-            JUAN CARLOS NAVARRO HIGADERA
-            <br>
-            ISAAC ESAU VEGA REYNAGA
-            <br>
-            JENNIFER SHERLINE ZARATE RAYGOZA
-            <br>
-            SEBASTIAN ZUÑIGA BEJARANO
-        </p>
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="https://www.rahcode.com/assets/css/styles.css" />
+    <style></style>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="https://hexagon-rahcode.herokuapp.com" class="nav__logo">Hexagon</a>
 
-        <br>
-        <br>
-        <div id="footer"></div>
-    </center>
-    
-    <script src="https://www.rahcode.com/footer.js"></script>
-</body>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list grid">
+            <li class="nav__item">
+              <a href="https://hexagon-rahcode.herokuapp.com/feed" class="nav__link active-link">
+                <i class="uil uil-estate nav__icon"></i>
+                Feed
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="https://hexagon-rahcode.herokuapp.com/register" class="nav__link">
+                <i class="uil uil-file-alt nav__icon"></i>
+                Register
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="https://hexagon-rahcode.herokuapp.com/login" class="nav__link">
+                <i class="uil uil-briefcase-alt nav__icon"></i>
+                Login
+              </a>
+            </li>
+          </ul>
+          <i class="uil uil-times nav__close" id="nav-close"></i>
+        </div>
+
+        <div class="nav__btns">
+          <!-- Theme change button -->
+          <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="uil uil-apps"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__content grid">
+            <div class="home__img">
+              <svg
+                class="home__blob"
+                viewBox="0 0 200 187"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <mask id="mask0" mask-type="alpha">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                      130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                      97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                      0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  />
+                </mask>
+                <g mask="url(#mask0)">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                      165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                      129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                      -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  />
+
+                  <image
+                    class="home__blob-img"
+                    x="15"
+                    y="10"
+                    xlink:href="/media/batman1.png"
+                  />
+                </g>
+              </svg>
+            </div>
+
+            <div class="home__data">
+              <h1 class="home__title">Hexagon</h1>
+              <h3 class="home__subtitle">Project</h3>
+              <p class="home__description">
+                P-TECH
+              </p>
+              <a href="https://hexagon-rahcode.herokuapp.com/about" class="button button--flex">
+                For businesses
+                <i class="uil uil-message"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="home__scroll">
+            <a href="https://hexagon-rahcode.herokuapp.com/feed" class="home__scroll-button button--flex">
+              <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+              <span class="home__scroll-name">Posts</span>
+              <i class="uil uil-arrow-down home__scroll-arrow"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer" id="foot"></footer>
+
+    <!--==================== SCROLL TOP ====================-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+
+    <!--==================== SWIPER JS ====================-->
+    <script src="https://www.rahcode.com/assets/js/swiper-bundle.min.js'"></script>
+
+    <!--==================== MAIN JS ====================-->
+    <script src="https://www.rahcode.com/assets/js/main.js"></script>
+  </body>
 </html>
