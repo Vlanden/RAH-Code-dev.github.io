@@ -3,3 +3,4 @@
 ## Projects
 
 - **[MeowScript](MeowScript)**
+- **[ShieldCipher](ShieldCipher)**
