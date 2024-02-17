@@ -6,7 +6,7 @@ The function checks if the last completed order for a logged-in user in WooComme
 
 **Returns:** A boolean value. It returns true if the user has placed a completed order within the last year, and false otherwise.
 
-## `shortcodeLastUsersOrder($atts, $content = null)`
+## `payPerViewShortcodeContent($atts, $content = null)`
 
 The function checks the state of the last user's order and returns the provided content if the state matches the attribute value, otherwise it returns an empty string.
 
