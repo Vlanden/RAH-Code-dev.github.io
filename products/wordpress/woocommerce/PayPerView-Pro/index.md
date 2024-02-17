@@ -1,6 +1,6 @@
-# MeowScript Documentation
+# PayPerView Pro
 
-Welcome to the official documentation for MeowScript, the programming language inspired by the sounds of cats.
+Welcome to the official documentation for PayPerView Pro, a plugin for WooCommerce to manage your subscriptions content.
 
 - [Introduction](./introduction/overview.md)
 - [User Guide](./user-guide/usage.md)
